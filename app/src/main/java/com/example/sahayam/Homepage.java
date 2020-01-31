@@ -30,7 +30,7 @@ public class Homepage extends AppCompatActivity {
     }
     public void hosp(View v){
 
-        Intent i3 = new Intent(Homepage.this,appointment.class);
+        Intent i3 = new Intent(Homepage.this,hosbutton.class);
         startActivity(i3);
 
     }

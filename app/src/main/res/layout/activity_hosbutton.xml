@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hosappo"
+            android:layout_width="144dp"
+            android:layout_height="113dp"
+            android:background="#ff4081"
+            android:drawableTop="@android:drawable/ic_input_add"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:text="HOSPITAL APPOINTMENT"
+            android:textSize="15sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textStyle="bold"
+            android:textColor="#FFFF00"
+            android:onClick="mhappo"/>
+
+        <Button
+            android:id="@+id/hossearch"
+            android:layout_width="144dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#ff4081"
+            android:drawableTop="@android:drawable/ic_menu_gallery"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:text="NEAR BY HOSPITALS"
+            android:textColor="#FFFF00"
+            android:textSize="15sp"
+            android:onClick="mhsearch"
+            android:layout_marginTop="30dp"
+
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hostele"
+            android:layout_width="144dp"
+            android:layout_height="113dp"
+            android:background="#ff4081"
+            android:drawableTop="@android:drawable/ic_input_add"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:text="TELE HOSPITAL"
+            android:textColor="#FFFF00"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/hosambu"
+            android:layout_width="144dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#ff4081"
+            android:drawableTop="@android:drawable/ic_menu_gallery"
+            android:onClick="mhambu"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:text="AMBULANCE SERVICES"
+            android:textColor="#FFFF00"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:background="@drawable/gradient">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="\nHOSPITAL FACILITIES\n"
+            android:textAlignment="center"
+            android:textColor="#F57C00"
+            android:textSize="40dp"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

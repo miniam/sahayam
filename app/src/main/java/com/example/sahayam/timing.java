@@ -18,6 +18,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class timing extends AppCompatActivity {
 
@@ -95,7 +96,7 @@ public class timing extends AppCompatActivity {
 
                     if (str.equals(depid) && str1.equals(clcid)&&str2.equals(std)) {
 
-                        String str3 = dataSnapshot.child(s).child("Day").getValue().toString();
+                        String str3 = Objects.requireNonNull(dataSnapshot.child(s).child("Day").getValue()).toString();
 
                         if (!arrayList.contains(str3)) {
                             arrayList.add(str3);
