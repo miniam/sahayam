@@ -38,4 +38,9 @@ public class hosbutton extends AppCompatActivity {
             startActivity(intent);
         }
     }
+    public void mhtele(View v) {
+        Intent i3= new Intent(hosbutton.this,hostele.class);
+        startActivity(i3);
+
+    }
 }

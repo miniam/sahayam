@@ -19,7 +19,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".hosbutton"></activity>
+        <activity android:name=".hostele"></activity>
+        <activity android:name=".hosbutton" />
         <activity android:name=".Sms" />
         <activity android:name=".upi" />
         <activity android:name=".verify" />

@@ -61,7 +61,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/hostele"
+            android:id="@+id/hosptele"
             android:layout_width="144dp"
             android:layout_height="113dp"
             android:background="#ff4081"
@@ -76,7 +76,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="mhtele"/>
 
         <Button
             android:id="@+id/hosambu"
