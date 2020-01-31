@@ -21,11 +21,13 @@ import com.google.firebase.auth.PhoneAuthProvider;
 
 import java.util.concurrent.TimeUnit;
 
+
 public class verify extends AppCompatActivity {
 
     private String verificationId;
     private FirebaseAuth mAuth;
     private EditText code1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
