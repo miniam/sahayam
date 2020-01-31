@@ -28,13 +28,16 @@ class Blog {
 }
 public class WritePosts extends AppCompatActivity {
     private DatabaseReference mDatabase;
-EditText titleBox=(EditText)findViewById(R.id.gettitle);
-    EditText subjectBox=(EditText)findViewById(R.id.getsubject);
-    Button postButton=(Button)findViewById(R.id.postbutton);
+EditText titleBox;
+    EditText subjectBox;
+    Button postButton;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setContentView(R.layout.activity_writepost);
+        titleBox=(EditText)findViewById(R.id.gettitle);
+        subjectBox=(EditText)findViewById(R.id.getsubject);
+        postButton=(Button)findViewById(R.id.postbutton);
         mDatabase = FirebaseDatabase.getInstance().getReference();
         postButton.setOnClickListener(new View.OnClickListener() {
             @Override

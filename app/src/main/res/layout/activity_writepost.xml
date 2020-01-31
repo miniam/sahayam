@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-<com.google.android.material.textfield.TextInputEditText
+<TextView
     android:layout_width="match_parent"
     android:layout_height="60dp"
     android:text="Title"
@@ -13,7 +13,7 @@
       android:text="Title of Job"
         android:layout_height="100dp"/>
 
-    <com.google.android.material.textfield.TextInputEditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="Subject"
@@ -24,7 +24,7 @@
         android:text="Detail of Job"
         android:inputType="text"
         android:layout_height="300dp"/>
-    <com.google.android.material.button.MaterialButton
+    <Button
       android:id="@+id/postbutton"
         android:layout_width="match_parent"
         android:layout_height="67dp"

@@ -12,6 +12,7 @@ public class Agribusiness extends AppCompatActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        System.out.println("siddhu is good boy");
         setContentView(R.layout.activity_agribusiness);
     }
    public void writePosts(View view) {
