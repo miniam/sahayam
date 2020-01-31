@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "202428794078",
+    "firebase_url": "https://sahayam-299dd.firebaseio.com",
+    "project_id": "sahayam-299dd",
+    "storage_bucket": "sahayam-299dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202428794078:android:ab64ee5118783d6da56e4f",
+        "android_client_info": {
+          "package_name": "com.example.sahayam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202428794078-cgnj5lgm11otf5s6r5f4drcf0ql3aed4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sahayam",
+            "certificate_hash": "3e0db7b782b21ce088123c7cf890fedf870e2b71"
+          }
+        },
+        {
+          "client_id": "202428794078-tbhapbhc7bu3sn07bgl87d0uvq7e22of.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgF7ltsUjalaMqi74RoXDK0DD3Fn-W6HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202428794078-tbhapbhc7bu3sn07bgl87d0uvq7e22of.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

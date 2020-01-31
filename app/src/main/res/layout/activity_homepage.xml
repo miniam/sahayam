@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/hospital"
+            android:layout_width="144dp"
+            android:layout_height="113dp"
+            android:background="#ff4081"
+            android:drawableTop="@android:drawable/ic_input_add"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:text="HOSPITAL FACILITIES"
+            android:textColor="#FFFF00"
+            android:textSize="15sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textStyle="bold"
+            android:onClick="hosp"/>
+
+        <Button
+            android:id="@+id/agribusiness"
+            android:layout_width="144dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#ff4081"
+            android:drawableTop="@android:drawable/ic_menu_gallery"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="10dp"
+            android:text="\nAGRI BUSINESS"
+            android:textColor="#FFFF00"
+            android:textSize="15sp"
+            android:layout_marginTop="30dp"
+
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/employment"
+            android:layout_width="144dp"
+            android:layout_height="113dp"
+            android:background="#ff4081"
+            android:drawableTop="@android:drawable/ic_input_add"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:text="\nEMPLOYMENT"
+            android:textColor="#FFFF00"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/emergency"
+            android:layout_width="144dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#ff4081"
+            android:drawableTop="@android:drawable/ic_menu_gallery"
+            android:onClick="maps"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:text="\nSECURITY"
+            android:textColor="#FFFF00"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/weather"
+            android:layout_width="144dp"
+            android:layout_height="113dp"
+            android:background="#ff4081"
+            android:drawableTop="@android:drawable/ic_input_add"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:text="\nCROP GUIDANCE"
+            android:textColor="#FFFF00"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/UpdateEmergency"
+            android:layout_width="144dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#ff4081"
+            android:drawableTop="@android:drawable/ic_menu_gallery"
+            android:onClick="Update"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="5dp"
+            android:text="\nUPDATE NUMBER"
+            android:textColor="#FFFF00"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:background="@drawable/gradient">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="\nRURAL EMPLOYMENT\n"
+            android:textAlignment="center"
+            android:textColor="#F57C00"
+            android:textSize="40dp"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
