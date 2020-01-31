@@ -34,6 +34,7 @@
 
         <Button
             android:id="@+id/agribusiness"
+            android:onClick="agribusiness"
             android:layout_width="144dp"
             android:layout_height="112dp"
             android:layout_marginLeft="16dp"

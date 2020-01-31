@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/consumerbuttom"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:text="consumer"
+    android:onClick="readPosts"
+    android:layout_height="300dp">
+</com.google.android.material.button.MaterialButton>
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/producerbutton" android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:text="producer"
+        android:onClick="writePosts"
+        android:layout_height="300dp">
+</com.google.android.material.button.MaterialButton>
+</LinearLayout>
