@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="Title"
+    android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/gettitle"
+        android:layout_width="match_parent"
+      android:text="Title of Job"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Subject"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/getsubject"
+        android:layout_width="match_parent"
+        android:text="Detail of Job"
+        android:inputType="text"
+        android:layout_height="300dp"/>
+    <Button
+      android:id="@+id/postbutton"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Post Job" />
+</LinearLayout>
