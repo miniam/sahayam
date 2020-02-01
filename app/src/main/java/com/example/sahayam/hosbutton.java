@@ -43,4 +43,8 @@ public class hosbutton extends AppCompatActivity {
         startActivity(i3);
 
     }
+    public void mhambu(View v){
+        Intent i=new Intent(hosbutton.this,ambulance.class);
+        startActivity(i);
+    }
 }

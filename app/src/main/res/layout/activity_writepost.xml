@@ -10,13 +10,13 @@
     <EditText
         android:id="@+id/gettitle"
         android:layout_width="match_parent"
-      android:text="Title of Job"
+      android:text="@string/title_of_job"
         android:layout_height="100dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Subject"
+        android:text="@string/subject"
         android:layout_gravity="center"/>
     <EditText
         android:id="@+id/getsubject"

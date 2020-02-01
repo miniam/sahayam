@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Username"
+        android:text="@string/username"
         android:textSize="25dp"
         android:textColor="#FFFFFF" />
 
@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Password"
+        android:text="@string/password"
         android:textSize="25dp"
         android:textColor="#FFFFFF" />
     <EditText
@@ -53,7 +53,7 @@
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign in"
+        android:text="@string/sign_in"
         android:onClick="entered"/>
     <Button
         android:id="@+id/button1"

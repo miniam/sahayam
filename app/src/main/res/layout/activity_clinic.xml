@@ -24,7 +24,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="88dp"
         android:layout_marginBottom="72dp"
-        android:text="Clinical Speciality"
+        android:text="@string/clinical_speciality"
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/clclv"
         app:layout_constraintEnd_toEndOf="parent"

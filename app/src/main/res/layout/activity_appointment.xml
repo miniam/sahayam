@@ -26,7 +26,7 @@
         android:background="#ff4081"
         android:gravity="center"
         android:onClick="appoi"
-        android:text="Book an appointment"
+        android:text="@string/book_an_appointment"
         android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="#FFFF00"

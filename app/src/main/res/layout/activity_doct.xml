@@ -23,7 +23,7 @@
         android:layout_marginTop="6dp"
         android:layout_marginEnd="72dp"
         android:layout_marginBottom="3dp"
-        android:text="SELECT A DOCTOR"
+        android:text="@string/select_a_doctor"
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/doclv"
         app:layout_constraintEnd_toEndOf="parent"

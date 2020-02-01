@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:hint="Amount"
         android:inputType="numberDecimal"
-        android:text="10"
+        android:text="@string/_10"
         app:layout_constraintBottom_toTopOf="@+id/note"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="168dp"
         android:hint="Note"
-        android:text="Test UPI Payment"
+        android:text="@string/test_upi_payment"
         app:layout_constraintBottom_toTopOf="@+id/send"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -47,7 +47,7 @@
         android:layout_marginEnd="156dp"
         android:layout_marginBottom="304dp"
         android:background="@color/colorPrimary"
-        android:text="Pay Now"
+        android:text="@string/pay_now"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

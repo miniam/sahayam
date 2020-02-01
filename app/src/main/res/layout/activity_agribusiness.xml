@@ -6,7 +6,7 @@
     android:id="@+id/consumerbuttom"
     android:layout_margin="@dimen/activity_horizontal_margin"
     android:layout_width="match_parent"
-    android:text="consumer"
+    android:text="@string/consumer"
     android:onClick="readPosts"
     android:layout_height="300dp">
 </Button>
@@ -14,7 +14,7 @@
 
         android:id="@+id/producerbutton" android:layout_margin="@dimen/activity_horizontal_margin"
         android:layout_width="match_parent"
-        android:text="producer"
+        android:text="@string/producer"
         android:onClick="writePosts"
         android:layout_height="300dp">
 </Button>
