@@ -10,7 +10,7 @@ public class hostele extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_hostele);
 
 
         VideoView videoView = findViewById(R.id.video_view);
