@@ -23,6 +23,7 @@
             android:paddingTop="8dp"
             android:paddingRight="16dp"
             android:paddingBottom="10dp"
+
             android:text="@string/hospital_facilities"
             android:textColor="#FFFF00"
             android:textSize="15sp"
@@ -62,6 +63,7 @@
 
         <Button
             android:id="@+id/employment"
+            android:onClick="emps"
             android:layout_width="144dp"
             android:layout_height="113dp"
             android:background="#ff4081"

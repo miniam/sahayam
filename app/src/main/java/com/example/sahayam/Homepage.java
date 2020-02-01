@@ -6,9 +6,6 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-
 public class Homepage extends AppCompatActivity {
 
     @Override
@@ -40,6 +37,12 @@ public class Homepage extends AppCompatActivity {
     public void agribusiness(View v){
         Intent i4 = new Intent(Homepage.this,Agribusiness.class);
         startActivity(i4);
+
+    }
+    public void emps(View v){
+
+        Intent i5 = new Intent(Homepage.this,employhome.class);
+        startActivity(i5);
 
     }
 }

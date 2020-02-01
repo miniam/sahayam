@@ -3,6 +3,24 @@
     <string name="title_activity_maps">Map</string>
 
 
+        <string-array name="categories">
+            <item>Daily Wage Labour</item>
+            <item>Clerks</item>
+            <item>Attenders</item>
+            <item>Supervisors</item>
+            <item>Accountants</item>
+            <item>Construction</item>
+            <item>Electrician</item>
+            <item>Plumbers</item>
+            <item>Mechanics</item>
+            <item>Drivers</item>
+            <item>Cleaners</item>
+        </string-array>
+
+
+
+
+
     <string name="title_activity_navact">navact</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -33,7 +51,7 @@
     <string name="title_activity_ambulance">Map</string>
     <string name="username">Username</string>
     <string name="select_a_doctor">SELECT A DOCTOR</string>
-    <string name="consumer" >consumer</string>
+    <string name="consumer">consumer</string>
     <string name="producer">producer</string>
     <string name="book_an_appointment">Book an appointment</string>
     <string name="clinical_speciality">Clinical Speciality</string>

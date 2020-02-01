@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".employgive">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employment Services"
+        android:background="#ff4081"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/categoryhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categories:"
+        android:background="#ff4081"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"/>
+
+    <Spinner
+        android:id="@+id/spincat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvworkers"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:textAlignment="center"
+        android:background="#ff4081"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:text="No of Workers" />
+
+    <EditText
+        android:id="@+id/workerno"
+        android:layout_width="425dp"
+        android:layout_height="wrap_content"
+        android:hint="10"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:textAlignment="center"
+        android:background="#ff4081"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:text="Enter Work Area" />
+
+    <EditText
+        android:id="@+id/workplace"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:hint="Address" />
+
+    <TextView
+        android:id="@+id/tvphone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Enter Phone Number"
+        android:textAlignment="center"
+        android:background="#ff4081"
+        android:textColor="#FFFF00"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ownerphone"
+        android:hint="Phone Number"
+
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/empsubmit"
+        android:text="Submit"
+        android:onClick="empsub"
+        android:textAlignment="center"
+        android:background="#ff4081"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="40dp" />
+
+
+
+</LinearLayout>

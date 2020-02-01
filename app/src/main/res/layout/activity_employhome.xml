@@ -19,7 +19,7 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="16dp" />
 
-    <TextView
+    <Button
         android:id="@+id/takejob"
         android:onClick="emtake"
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <TextView
+    <Button
         android:id="@+id/givejob"
         android:onClick="emgive"
         android:layout_width="match_parent"
